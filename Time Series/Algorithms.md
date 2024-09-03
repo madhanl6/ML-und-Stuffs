@@ -56,18 +56,53 @@
 
 # Multivariate Time Series Algorithms
 
-- **Vector Autoregression (VAR)**: Models multiple time series variables simultaneously with lagged values of each variable.
-- **Vector Autoregressive Moving Average (VARMA)**: Extends VAR to include moving average components.
-- **Vector Autoregressive Integrated Moving Average (VARIMA)**: Extends VARMA with differencing to handle non-stationarity.
-- **Dynamic Factor Models (DFM)**: Extracts common factors driving multiple time series.
-- **Canonical Correlation Analysis (CCA)**: Analyzes the relationship between two sets of time series data.
-- **Multivariate State Space Models**: Uses state-space representation to model multiple time series.
-- **Multivariate Long Short-Term Memory Networks (LSTM)**: Extends LSTM to handle multiple input and output time series.
-- **Multivariate Gated Recurrent Units (GRU)**: Extends GRU to manage multiple time series.
-- **Temporal Convolutional Networks (TCN)**: Uses convolutional layers for sequence modeling in multiple time series.
-- **Transfer Function Models**: Models the relationship between input and output time series.
-- **Hidden Markov Models (HMM)**: Models sequences of observed data with underlying hidden states.
-- **Dynamic Time Warping (DTW)**: Measures similarity between two time series which may vary in time or speed.
+- **Vector Autoregression (VAR)**:
+  - **Purpose**: Models multiple time series variables simultaneously using lagged values of each variable, capturing interdependencies.
+  - **Usage**: Suitable for analyzing and forecasting systems where variables influence each other over time.
+
+- **Vector Autoregressive Moving Average (VARMA)**:
+  - **Purpose**: Extends VAR by including moving average components to capture more complex relationships between variables.
+  - **Usage**: Ideal for time series data where both autoregressive and moving average effects are present.
+
+- **Vector Autoregressive Integrated Moving Average (VARIMA)**:
+  - **Purpose**: Builds on VARMA by incorporating differencing to handle non-stationarity in the data.
+  - **Usage**: Effective for time series with trends or seasonality that require differencing to achieve stationarity.
+
+- **Multivariate State Space Models**:
+  - **Purpose**: Uses state-space representations to model multiple time series, capturing complex dynamics and relationships.
+  - **Usage**: Suitable for time series with intricate dependencies and unobserved components influencing the data.
+
+- **Multivariate Long Short-Term Memory Networks (LSTM)**:
+  - **Purpose**: Extends LSTM networks to handle multiple input and output time series, capturing long-term dependencies.
+  - **Usage**: Ideal for forecasting and modeling time series with complex temporal patterns and interactions.
+
+- **Multivariate Gated Recurrent Units (GRU)**:
+  - **Purpose**: Adapts GRU networks for multiple time series, providing a simpler alternative to LSTMs with similar capabilities.
+  - **Usage**: Suitable for handling multiple time series with temporal dependencies while maintaining computational efficiency.
+
+- **Temporal Convolutional Networks (TCN)**:
+  - **Purpose**: Uses convolutional layers to model sequences, applying to multiple time series with temporal patterns.
+  - **Usage**: Effective for time series forecasting where convolutional approaches offer advantages over recurrent methods.
+
+- **Dynamic Factor Models (DFM)**:
+  - **Purpose**: Extracts common factors driving multiple time series, simplifying analysis by reducing dimensionality.
+  - **Usage**: Ideal for uncovering underlying factors influencing multiple time series and reducing complexity in high-dimensional data.
+
+- **Canonical Correlation Analysis (CCA)**:
+  - **Purpose**: Analyzes the relationships between two sets of time series data, identifying associations and dependencies.
+  - **Usage**: Useful for exploring correlations and interactions between different time series datasets.
+
+- **Transfer Function Models**:
+  - **Purpose**: Models the relationship between input and output time series, capturing how changes in one series affect another.
+  - **Usage**: Suitable for systems where inputs and outputs are related, such as in control systems or economic modeling.
+
+- **Hidden Markov Models (HMM)**:
+  - **Purpose**: Models sequences of observed data with underlying hidden states, providing insights into latent structures.
+  - **Usage**: Ideal for time series with unobserved states influencing observed data, such as in speech or finance.
+
+- **Dynamic Time Warping (DTW)**:
+  - **Purpose**: Measures similarity between two time series that may vary in time or speed, allowing for flexible alignment.
+  - **Usage**: Effective for comparing time series with temporal distortions or varying speeds, such as in pattern recognition or anomaly detection.
 
 These algorithms can be applied depending on the specific requirements of the time series data you are working with, such as the need for seasonal decomposition, handling of multiple variables, or capturing long-term dependencies.
 
