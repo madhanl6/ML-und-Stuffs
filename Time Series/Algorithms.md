@@ -5,10 +5,10 @@
 - **Autoregressive Moving Average (ARMA) Model**: Combines AR and MA models to account for both past values and past forecast errors.
 - **Autoregressive Integrated Moving Average (ARIMA) Model**: Extends ARMA to include differencing to make the series stationary.
 - **Seasonal ARIMA (SARIMA) Model**: Extends ARIMA to handle seasonal effects.
-- **Autoregressive Integrated Moving Average with Exogenous Variables (ARIMAX) Model**
-- **Seasonal ARIMAX (SARIMAX) Model**
-- **Exponential Smoothing Methods (ESM)**: A family of forecasting techniques that apply weighted averages to historical data, with more weight given to more recent observations. These methods adapt quickly to changes in the data and provide forecasts that are updated as new observations are available.
 - **State Space Models**: Uses state-space representation to model time series, including the Kalman filter for estimation.
+- - - - - **Autoregressive Integrated Moving Average with Exogenous Variables (ARIMAX) Model**
+- - - - - **Seasonal ARIMAX (SARIMAX) Model**
+- **Exponential Smoothing Methods (ESM)**: A family of forecasting techniques that apply weighted averages to historical data, with more weight given to more recent observations. These methods adapt quickly to changes in the data and provide forecasts that are updated as new observations are available.
 - **Prophet**: Developed by Facebook, this model handles seasonality and holidays and is robust to missing data.
 - **Long Short-Term Memory Networks (LSTM)**: A type of Recurrent Neural Network (RNN) designed for sequence prediction problems.
 - **Gated Recurrent Units (GRU)**: Another RNN variant, similar to LSTM but with a different gating mechanism.
