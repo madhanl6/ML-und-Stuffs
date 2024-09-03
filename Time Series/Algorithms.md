@@ -15,9 +15,6 @@
 - **Prophet**: Developed by Facebook, this model handles seasonality and holidays and is robust to missing data.
 - **Long Short-Term Memory Networks (LSTM)**: A type of Recurrent Neural Network (RNN) designed for sequence prediction problems.
 - **Gated Recurrent Units (GRU)**: Another RNN variant, similar to LSTM but with a different gating mechanism.
-- **Seasonal Decomposition of Time Series (STL)**: Decomposes time series into seasonal, trend, and residual components.
-- **Fourier Analysis**: Uses Fourier transforms to decompose time series into frequency components.
-- **Wavelet Analysis**: Decomposes time series into wavelets for analyzing localized variations.
 
 # Multivariate Time Series Algorithms
 
