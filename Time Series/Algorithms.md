@@ -12,9 +12,9 @@
   - **Simple Exponential Smoothing (SES)**: Best suited for series without trends or seasonality. It smooths the data with a single smoothing parameter.
   - **Holt’s Linear Trend Method**: Extends SES by adding a component to handle linear trends in the data.
   - **Holt-Winters Seasonal Method**: Further extends Holt's method by incorporating a seasonal component, making it suitable for data with both trend and seasonality.
-- **Prophet**: Developed by Facebook, this model handles seasonality and holidays and is robust to missing data.
 - **Long Short-Term Memory Networks (LSTM)**: A type of Recurrent Neural Network (RNN) designed for sequence prediction problems.
 - **Gated Recurrent Units (GRU)**: Another RNN variant, similar to LSTM but with a different gating mechanism.
+- **Prophet**: Developed by Facebook, this model handles seasonality and holidays and is robust to missing data.
 
 # Multivariate Time Series Algorithms
 
