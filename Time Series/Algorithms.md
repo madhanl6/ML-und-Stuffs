@@ -5,12 +5,9 @@
 - **Autoregressive Moving Average (ARMA) Model**: Combines AR and MA models to account for both past values and past forecast errors.
 - **Autoregressive Integrated Moving Average (ARIMA) Model**: Extends ARMA to include differencing to make the series stationary.
 - **Seasonal ARIMA (SARIMA) Model**: Extends ARIMA to handle seasonal effects.
-- **Exponential Smoothing Methods (ESM)**: A family of forecasting techniques that apply weighted averages to historical data, with more weight given to more recent observations. These methods adapt quickly to changes in the data and provide forecasts that are updated as new observations are available. There are several variations:
-  - **Simple Exponential Smoothing**: Suitable for data without trend or seasonality, calculating forecasts based on a weighted average of past observations.
-  - **Holt’s Linear Trend Model**: Extends Simple Exponential Smoothing to account for linear trends in the data with components for level and trend.
-  - **Holt-Winters Seasonal Model**: Further extends Holt’s model by incorporating seasonal effects, available in:
-    - **Additive**: For constant seasonal fluctuations.
-    - **Multiplicative**: For seasonal variations that change proportionally with the data level.
+- **Autoregressive Integrated Moving Average with Exogenous Variables (ARIMAX) Model**
+- **Seasonal ARIMAX (SARIMAX) Model**
+- **Exponential Smoothing Methods (ESM)**: A family of forecasting techniques that apply weighted averages to historical data, with more weight given to more recent observations. These methods adapt quickly to changes in the data and provide forecasts that are updated as new observations are available.
 - **State Space Models**: Uses state-space representation to model time series, including the Kalman filter for estimation.
 - **Prophet**: Developed by Facebook, this model handles seasonality and holidays and is robust to missing data.
 - **Long Short-Term Memory Networks (LSTM)**: A type of Recurrent Neural Network (RNN) designed for sequence prediction problems.
