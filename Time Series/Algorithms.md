@@ -8,6 +8,11 @@
 - **State Space Models**: Uses state-space representation to model time series, including the Kalman filter for estimation.
   - **Autoregressive Integrated Moving Average with Exogenous Variables (ARIMAX) Model**
   - **Seasonal ARIMAX (SARIMAX) Model**
+  - **Exponential Smoothing State Space Models (ETS)**:A class of state space models that includes exponential smoothing methods with components for error, trend, and seasonality.
+    - **ETS(A,A,A): Additive error, additive trend, additive seasonality**
+    - **ETS(M,A,A): Multiplicative error, additive trend, additive seasonality**
+    - **ETS(A,M,A): Additive error, multiplicative trend, additive seasonality**
+    - **ETS(A,A,M): Additive error, additive trend, multiplicative seasonality**
 - **Exponential Smoothing Methods (ESM)**: A family of forecasting techniques that apply weighted averages to historical data, with more weight given to more recent observations. These methods adapt quickly to changes in the data and provide forecasts that are updated as new observations become available.
   - **Simple Exponential Smoothing (SES)**: Best suited for series without trends or seasonality. It smooths the data with a single smoothing parameter.
   - **Holt’s Linear Trend Method**: Extends SES by adding a component to handle linear trends in the data.
