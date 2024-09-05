@@ -21,6 +21,7 @@ The supervised learning process involves several steps to build, evaluate, and d
 ## 4. Data Cleaning (Handling Outliers)
 
 - **Handling Outliers**: Address outliers identified during EDA, either by transformation, removal, or other techniques.
+- **Other miscellaneous cleaning**
 
 ## 5. Feature Engineering and Feature Selection
 
